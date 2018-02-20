@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #9CF;
+	text-align: center;
+	background-image: url("photos/neighborhoodBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#headerSection {
+	width: auto;
+	padding: 5px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+	overflow: auto;
+	border: 5px double #C00;
+	border-width: 20px;
+	background-color: white;
+}
+#nameMessage {
+	border-radius: 10px;
+	color: white;
+	background-color: #984510;
+}
+#trashContent {
+	width: 500px;
+	border-radius: 10px;
+	border: none;
+	margin: auto;
+	padding-top: 50px;
+	padding-right: 40px;
+}
+#trashList {
+	text-align: center;
+	padding: 3px;
+	background-color: #333;
+	border: none;
+	border-radius: 10px;
+	list-style-type: none;
+	border: 2px double white;
+	border-width: 10px;
+	box-shadow: 3px 3px 50px 15px black;
+}
+.complete {
+	width: auto;
+	height: 100px;
+	border: none;
+	color:white;
+	font-size: 30px;
+	border: 1px solid white;
+	overflow: auto;
+	text-align: center;
+}
+.trashButton {
+	width: 150px;
+	height: 100px;
+	float: right;
+	background-color: #999;
+	border: none;
+	background-image: url("photos/trashBinIcon.png");
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: center;
+}
+.trashButton:hover {
+	background-color: white;
+}
+.trashButton:active {
+	background-color: #333;
+}
